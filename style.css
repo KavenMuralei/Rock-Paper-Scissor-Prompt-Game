@@ -1,0 +1,540 @@
+/*
+  Kaven Muraleitharan & Sansar Sharma
+  3/29/2022
+  Mr. Krnic
+  Unit 2 Assignment 
+  This our stylization page for our website.
+*/
+
+body{
+  background-image:url("IMAGES/Background.jpg");
+  margin: 0px;
+  padding: 0px;
+  background-size:cover;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.RPS_Title{
+  position: absolute;
+  top: 50%;
+  left: 51.5%;
+  transform: translate(-50%, -50%);
+  margin-top:-13%;
+  font-size:80px;
+  font-weight:bold;
+  color:white;
+  font-family: 'Finger Paint', cursive;
+}
+
+.RPS_BG{ 
+  height:850px;
+  margin-top:0.55%;
+  width:99.8%;
+  filter: brightness(80%);
+  position: relative;
+  border-color:black;
+  border-width:2px;
+  border-style:solid;
+}
+
+.WelcomeBox{
+  margin-top:0.5%;
+  width:99.8%;
+  height:450px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+  border-style:solid;
+}
+
+.WelcomeHeader{
+  font-size:40px;
+  color:white;
+  text-align:center;
+  margin-top:3%;
+  text-decoration-color: white;
+  text-decoration-thickness: 2.5px;
+  font-family: 'Finger Paint', cursive;
+}
+
+.WelcomeText{
+  text-align:center;
+  font-size:27px;
+  color:white;
+  width: 75%;
+  height:205px;
+  line-height:50px;
+  margin: auto;
+  margin-top:2%;
+  border-style:solid;
+  border-width:2px;
+  border-color:black;
+  border-radius:5%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.info{
+  margin-top:0.5%;
+  width:99.8%;
+  height:585px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+  border-style:solid;
+}
+
+.infoheader{
+  font-size:40px;
+  color:white;
+  text-align:left;
+  margin-left:8%;
+  margin-top:3%;
+  text-decoration-color: white;
+  text-decoration-thickness: 2.5px;
+  font-family: 'Finger Paint', cursive;
+}
+
+.InfoText{
+  width:750px;
+  height: 450px;
+  font-size:27px;
+  margin-left:7.5%;
+  color:white;
+  line-height:52.5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.InfoIMG{
+  float:right;
+  height:350px;
+  margin-right:8%;
+  margin-top:1%;
+  border-style:solid;
+  border-color:black;
+  border-width:2.5px;
+  border-radius:1%;
+}
+
+/* 
+Below is the stylizing for the Code Snippets index.
+*/
+
+/* 
+Below is the stylizing for the HowToPlay Index.
+*/
+
+.HowToPlay_Title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top:-13%;
+  font-size:70px;
+  font-weight:bold;
+  color:white;
+  font-family: 'Finger Paint', cursive;
+}
+
+.HowToPlay_BG{ 
+  height:850px;
+  margin-top:0.55%;
+  width:99.8%;
+  filter: brightness(65%);
+  position: relative;
+  border-color:black;
+  border-width:2px;
+  border-style:solid;
+}
+
+.IntroductionBox{
+  margin-top:0.5%;
+  width:99.8%;
+  height:850px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+  border-style:solid;
+  
+}
+
+.IntroductionHeader{
+  font-size:40px;
+  color:white;
+  text-align:center;
+  margin-top:3%;
+  text-decoration-color: white;
+  text-decoration-thickness: 2.5px;
+  font-family: 'Finger Paint', cursive;
+}
+
+.IntroductionText{
+  width:750px;
+  height: 250px;
+  font-size:27px;
+  margin-top:7.5%;
+  margin-left:8%;
+  color:white;
+  line-height:53.5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.headerline{
+  width:100%;
+  height: 100px;
+  margin-top:3%;
+}
+ 
+.Subheader1{
+  margin-top:2%;
+  margin-left:18%;
+  width:275px;
+  height: 50px;
+  font-size:32.5px;
+  color:white;
+  line-height:53.5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.Subheader2{
+  float:right;
+  margin-right:17.5%;
+  margin-top:-4.5%;
+  width:275px;
+  height: 50px;
+  font-size:32.5px;
+  color:white;
+  line-height:53.5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.ModetextOutLine{
+  width:99.8%;
+  height: 300px;
+}
+
+.Mode1Text{
+  width:750px;
+  height: 250px;
+  font-size:27px;
+  margin-left:8%;
+  color:white;
+  line-height:53.5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.Mode2Text{
+  float:right;
+  width:750px;
+  height: 250px;
+  font-size:27px;
+  margin-top:-15%;
+  margin-right:8%;
+  color:white;
+  line-height:53.5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.imgAlign {
+
+}
+
+.IntroPicBox1{
+/*   border-style: solid; */
+  
+}
+
+.IntroPicBox2{
+/*   border-style: solid; */
+}
+
+.IntroPicBox3{
+/*   border-style: solid; */
+}
+
+.IntroBoxIMG1{
+  float:right;
+  margin-top: -17%;
+  margin-right:25%;
+  border-style:solid;
+  border-width:4px;
+}
+
+.IntroBoxIMG2{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-top: -17%;
+  margin-right:0.5%;
+}
+
+.IntroBoxIMG3{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-top: -6%;
+  margin-right:0.5%;
+}
+
+.IntroBoxIMG4{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-top: -6%;
+  margin-right:0.5%;
+}
+
+.divvywivvy{
+  width:99.7%;
+  height:200px;
+  margin-top:8.5%;
+}
+
+.IntroBoxIMG5{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-right:13%;
+}
+
+.ModeBox{
+  margin-top:0.5%;
+  width:99.8%;
+  height:600px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+  border-style:solid;
+}
+
+.IntermissionBox{
+  margin-top:0.5%;
+  width:99.8%;
+  height:625px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+  border-style:solid;
+}
+
+.TieIMG3{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-top: -6%;
+  margin-right:12.5%;
+}
+
+.InsaneModeBox{
+  margin-top:0.5%;
+  width:99.8%;
+  height:900px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+  border-style:solid;
+}
+
+.InsaneModeIMG5{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-right:0.5%;
+  border-style:solid
+}
+
+.InsaneModeIMG6{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-right:0.5%;
+  margin-right:0.5%;
+}
+
+.divvywivvy2{
+  width:99.7%;
+  height:200px;
+  margin-top:8.5%;
+}
+
+.WinLossBox{
+  margin-top:0.5%;
+  width:99.8%;
+  height:600px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+  border-style:solid;
+}
+
+.WinLossIMG1{
+  float:right;
+  margin-top: -15%;
+  margin-right:25%;
+  border-style:solid;
+  border-width:4px;
+}
+
+.WinLossIMG2{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-top: -15%;
+  margin-right:0.5%;
+}
+
+/* 
+Below is the stylizing for the Game Index.
+*/
+
+.statsbox{
+  width: 90%;
+  height: 550px;
+  margin-top: 12%;
+  background-color: #5d6b8e;
+  border-style:solid;
+  border-color:black;
+}
+
+.StatsboxTitle{
+  font-size: 35px;
+  font-weight: bold;
+  text-align:center;
+  margin-top:1.5%;
+}
+
+.StatsboxHeaders{
+  margin-left:15%;
+  font-size:27.5px;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 2.5px;
+}
+
+#StatsboxText1{
+  font-size:24px;
+  margin-left:20%;
+  margin-top:-4.5%;
+}
+
+#StatsboxText2{
+  font-size:24px;
+  margin-left:20%;
+  margin-top:-4.5%;
+}
+
+#StatsboxText3{
+  font-size:24px;
+  margin-left:26%;
+  margin-top:-4.5%;
+}
+
+#NameLine{
+  font-size:24px;
+  margin-left:21%;
+  margin-top:-4.5%;
+}
+/*
+Below is the styling for the Code Snippets page.
+*/
+.codeButton{
+  padding: 20px;
+  position: absolute;
+  padding: 20px;
+  z-index: 3;
+  margin-top: 20%;
+  margin-right: 0%;
+  margin-left: 45%;
+  allign-items:center;
+  border-radius: 10%;
+  background-color: #7e7a99; ;
+  font-family: 'Finger Paint', cursive;
+  font-weight:bold;
+  width:200px;
+  height:100px;
+  font-size:25px;
+  border-color:black;
+  border-width:2px;
+}
+
+button:hover {
+  background-color:#5d6b8e; ;
+}
+
+.CODESNIPPETS_Title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top:-13%;
+  font-size:110px;
+  font-weight:bold;
+  color:white;
+  font-family: 'Finger Paint', cursive;
+}
+
+.ifElseIMG1 {
+  float:right;
+  height:350px;
+  margin-right:8%;
+  margin-top:-17%;
+  border-radius:1%;  
+}
+.elseIf
+{
+  margin-top:0.5%;
+  width:99.8%;
+  height:850px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+}
+
+
+/*
+Below is the styling for the navigation bar
+*/
+
+nav{
+	width: 100%;
+	height: 95px;
+	background-color: gray;
+	line-height: 55px;
+	padding:0px 100px;
+	position:fixed;
+	z-index: 10;
+  border-color:black;
+  border-width:2.5px;
+  border-style:solid;
+}
+
+nav #nav-link{
+	float: left;
+  margin-left: 23.5%;
+  display: table; 
+}
+
+nav #nav-link li{
+	display: inline;
+	list-style: none;
+}
+
+nav #nav-link li a{
+	color:#fff;
+	text-decoration: none;
+	padding:0px 32px;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Finger Paint', cursive;
+}
+
+nav #nav-link li a:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 3px;
+  font-family: 'Finger Paint', cursive;
+}

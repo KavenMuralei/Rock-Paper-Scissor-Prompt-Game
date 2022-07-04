@@ -1,0 +1,1444 @@
+<!--
+  Kaven Muraleitharan & Sansar Sharma
+  3/29/2022
+  Mr. Krnic
+  Unit 2 Assignment
+  This is the code for our home page.
+  -->
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+    <title>
+      Unit 2 Assignment 
+    </title>
+    <link rel="icon" href="IMAGES/homeicon.png">
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	   <nav>
+       <div class="table">
+         <ul id="nav-link">
+			     <li><a href="index.html">Home</a></li>
+           <li><a href="/CONTENT/HOWTOPLAY/index.html">How To Play</a></li>
+           <li><a href="/CONTENT/CODESNIPPETS/index.html">Code Snippets</a></li>
+           <li><a href="/CONTENT/GAME/index.html">Game</a></li>
+		     </ul>
+       </div>
+	   </nav>
+    <div class="container">
+      <img class="RPS_BG" src="IMAGES/RPS_Background.png">
+      <h1 class="RPS_Title">Rock Paper Scissors</h1>
+    </div>
+    <div class="WelcomeBox"> 
+      <h1 class="WelcomeHeader">Welcome!</h1>
+      <p class="WelcomeText">Welcome to Akaran's, Kaven's, and Sansar's Unit 2 Basic Programming Assignment! In this assignment we have to demonstrate our learning of Javascript throughout this unit, and to show, we decided to create Rock Paper Scissors. We have also included a code snippet to demonstrate our learning throughout this unit, with extensive explantions for our main code.</p>
+    </div>
+    <div class="info">
+      <h1 class="infoheader">What is Rock Paper Scissors?</h1>
+      <img class="InfoIMG" src="IMAGES/Info_IMG.jpg">
+      <p class="InfoText">Rock Paper Scissors is a hand game, usually played between two people, in which each player simultaneously forms one of three shapes by their hands. Players start each round by saying, “rock, paper, scissors, shoot!”. On “shoot,” each player holds out their hands out resembling the shapes of rock, paper and scissors. Rock crushes scissors, scissors cut paper, and paper covers rock. See if you have what it takes to beat the AI!</p>
+    </div>
+    <br>
+ </body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!--
+  Kaven Muraleitharan & Sansar Sharma
+  3/29/2022
+  Mr. Krnic
+  Unit 2 Assignment
+  This is the webpage for the code snippet page.
+  -->
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+    <title>
+      Rock Paper Scissors Tutorial
+    </title>
+    <link rel="icon" href="../../IMAGES/HowToPlayIcon.png">
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="../../style.css">
+  </head>
+  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	 <nav>
+     <div class="table">
+       <ul id="nav-link">
+			   <li><a href="../../index.html">Home</a></li>
+         <li><a href="../HOWTOPLAY/index.html">How To Play</a></li>
+         <li><a href="../CODESNIPPETS/index.html">Code Snippets</a></li>
+         <li><a href="../GAME/index.html">Game</a></li>
+		   </ul>
+     </div>
+	 </nav>
+    <div class="container">
+      <img class="HowToPlay_BG" src="../../IMAGES/CodeSnippets.jpg">
+      <h1 class="CODESNIPPETS_Title">Code Snippets</h1>
+    </div>
+    <div class="IntroductionBox"> 
+      <h1 class="IntroductionHeader">if and else</h1>
+      <div class="imgAlign">
+      <p class="IntroductionText">Here is a simple section of code from the end of the game. This code checks if the player score is less then the opponents. If yes, the player is alerted a lost. However, the else statement checks if the player won and then alerts a victory. We used this code since it helps conclude the game and announces a winner </p>
+      <img class="ifElseIMG1" src="codeSnippetsImage/carbon.png">
+      </div>
+    </div>
+  <div class="IntroductionBox">
+    <h1 class="IntroductionHeader">else ifs</h1>
+    <p class="IntroductionText">Here in this image an else if statement is used. This was used to alert the user if they selected scissors and the opponent selected scissors (rockPaperScissor==3). Furthermore, if this was executed the round count will be subtracted by one since it was a tie. Also, the rockPaperScissor value will be set back to 0 for the next round. Else ifs were very useful since they helped us list the possibilities of scissor+rock and scissor+paper etc... </p>
+    <img class="ifElseIMG1" src="codeSnippetsImage/carbon (1).png">
+  </div>
+    <div class="IntroductionBox">
+      <h1 class="IntroductionHeader">Logical operators</h1>
+      <p class="IntroductionText">For this image the logical operator =! and && was used. This was used to see if the users answer was either rock paper or scissors. If it wasn't rock paper scissors or any of the variations, the user will be given an alert saying that their input was invalid. The code will also restart the round by subtracting a round (x--). Logical operators like && and || helped us a lot. This is because it added different variants of strings the user can execute. For example, the user is no longer just limited to just saying "paper" in the prompt. They can also say "PAPER" or "p".</p>
+      <img class="ifElseIMG1" src="codeSnippetsImage/carbon (4).png">
+    </div>
+    <div class="IntroductionBox">
+      <h1 class="IntroductionHeader">for loops</h1>
+      <p class="IntroductionText">Unfortunately, we were not able to fit the entire for loop in this image. This for loop was designed to take the number of rounds the user wanted and add upon it. This would go on until the user finishes the last round. That is when the for loop ends. This for loop made it incredibly easy for us to calculate each round in classic and insane diffculties thus, why we used it.</p>
+      <img class="ifElseIMG1" src="codeSnippetsImage/carbon (7).png">
+    </div>
+    <div class="IntroductionBox">
+      <h1 class="IntroductionHeader">while loops</h1>
+      <p class="IntroductionText">With the use of while loop, this code loops when the value "rounds" is equal to 0. This happens in classic mode when the user is given a prompt asking for the number of rock paper scissor rounds. If the user gives an odd number the code doesn't loop and proceeds as normal. However, if they give an even number the user is alerted to put an odd number. Then, the rounds variable is returned back to 0. These while loops were very useful since it fundamentally prevented the user from using a even number. If the round was even, some games could end in a draw, and thats lame!</p>
+      <img class="ifElseIMG1" src="codeSnippetsImage/carbon (8).png">
+    </div>
+    <div class="IntroductionBox">
+      <h1 class="IntroductionHeader">do while loops</h1>
+      <p class="IntroductionText">This is similar to the while loop above. The only difference is that this round count is for insane mode rather then classic. This was done simply to prove our knowledge in do while loops. </p>
+      <img class="ifElseIMG1" src="codeSnippetsImage/carbon (9).png">
+    </div>
+    <div class="IntroductionBox">
+      <h1 class="IntroductionHeader">Shortcut operators</h1>
+      <p class="IntroductionText">In the first line of code an else if statement is used. If the user had chose rock and the opponent chose scissor, the code will alert a win. Not only that, it will execute shortcut operator that is designed to add 1 point to the users score. This is through the use of the shortcut operator ++. Using this operator made it easy for us to add points instead of doing allyScore=+1. </p>
+      <img class="ifElseIMG1" src="codeSnippetsImage/carbon (10).png">
+    </div>
+    <div class="IntroductionBox">
+      <h1 class="IntroductionHeader">Random Numbers</h1>
+      <p class="IntroductionText">This single line of code is practically the basis of our game. This line of code randomizes a number from 1-3. If the number is 1, the opponent/code will use rock. If the number is 2, the code will use paper. If the number is 3, then the code will use scissors. This line of code was used many times since it can easily represented with either rock, paper, or scissors. </p>
+      <img class="ifElseIMG1" src="codeSnippetsImage/carbon (11).png">
+    </div>
+    <div class="IntroductionBox">
+      <h1 class="IntroductionHeader">Math Operations</h1>
+      <p class="IntroductionText">This code (which is the exact same on from the do while statement) uses a modulo math operator. This code basically asks the user to input a number. If that number is even, then the user will be alerted, and the code will be looped all over again. The way we check that if its even is through the modulo operator. This operator checks if there is a remainder in the variable "rounds". If rounds%2 does equal to 0, then the alert message is played and the program is looped. However, if rounds%2 equals to 1, then its odd and the program will continue as usual. In a case like this, the math operator had assisted us by preventing ties with the even number. </p>
+      <img class="ifElseIMG1" src="codeSnippetsImage/carbon (13).png">
+    </div>
+ </body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*
+  Kaven Muraleitharan & Sansar Sharma
+  2/8/2022
+  Mr. Krnic
+  Unit 2 Assignment
+  This is the code to our rock paper scissors game!
+  */
+//This is the setup
+let allyScore=0;
+let enemyScore=0;
+let rockPaperScissors=0;
+let rounds=0;
+let gameMode="";
+let picture = [
+  ["🗿📄✂"]
+  ]
+let questionGen=0;
+let guestName="";
+let answer="";
+let q1=0;
+let q2=0;
+let q3=0;
+let q4=0;
+let q5=0;
+let q6=0;
+let playAgain=0;
+alert(picture+"\nWelcome to our rock paper scissors game!");
+guestName=prompt(picture+"\nWhat is your name?")
+for (let z=2;z<=2;z++) //THIS REPLAYS THE "SELECT GAMEMODE MESSAGE"
+{
+  gameMode=prompt(picture+"\nPlease input a gamemode.\nType 'classic' for classical rock paper scissors\nType 'insane' to play rock paper scissors with our own twist!");
+  if(gameMode!="classic" && gameMode!="insane" && gameMode!="Insane" && gameMode!="INSANE" && gameMode!="Classic" && gameMode!="CLASSIC" && gameMode!="I" && gameMode!="i" && gameMode!="C" && gameMode!="c")
+  {
+    alert("🚫🚫🚫"+"\nUh oh! It looks like your entry was invalid! Looks like you have inputed a invalid character! Please try again!");
+  z--
+  }
+}
+//Insane mode
+if(gameMode=="insane" || gameMode=="Insane" || gameMode=="INSANE" ||gameMode=="I" || gameMode=="i")
+{
+ alert(picture+"\nWelcome to insane mode "+name+"!"+"\nIn this mode if you tie with your opponent, you lose. Furthermore, in insane mode every time you win you must answer a simple word problem. If you fail to answer the question right, you lose the round.");
+alert(picture+"\nAre you ready?");
+do
+  {
+    rounds=+prompt(picture+"\nHi "+guestName+". "+"How many rounds do you want the game to be? \n(Please pick an odd number!)");
+    if (rounds%2==0)
+    {
+      rounds=0
+      alert(picture+"\nPlease enter a odd number");
+    }
+  }while (rounds==0);
+if(rounds==1)
+  {
+    alert(picture+"\nThis rock paper scissor game will go on for "+ rounds + " round!");
+  }
+  else
+  {
+    alert(picture+"\nThis rock paper scissor game will go on for "+ rounds + " rounds!");
+  }
+    for (let x=1;x<=rounds;x++)
+  {
+	  alert(picture+"\nRound "+x);
+	  answer=prompt(picture+"\nPlease type either rock, paper, or scissors! \nPlease be weary of your spelling")
+    rockPaperScissor=~~(Math.random() * 3) + 1;
+    alert("🗿"+"\nRock!");
+    alert("📄"+"\nPaper!");
+    alert("✂"+"\nScissors!");
+    alert("🔫"+"\nShoot!");
+    //Rock possibility INSANE
+    if(answer!="rock" && answer!="Rock" && answer!="ROCK" && answer!="paper" && answer!="Paper" && answer!="PAPER" && answer!="scissors" && answer!="Scissor" && answer!="SCISSORS" && answer!="scissor" && answer!="r" && answer!="R" && answer!="s" && answer!="S" && answer!="P" && answer!="p")
+    {
+      alert("🚫🚫🚫"+"\nUh oh! It looks like your entry was invalid! Looks like you have inputed a invalid character! Please try again");
+      x--
+    }
+     else if(answer=="rock" || answer=="Rock" || answer=="ROCK" || answer=="R" || answer=="r")
+     {
+       //Rock+Rock INSANE
+      if(rockPaperScissor==1)
+        { 
+          enemyScore++
+          alert("❌"+"\nYou chose rock and your opponent chose rock!\nYou lost!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+          rockPaperScissor==0;
+        }
+      //Rock+Paper INSANE
+      else if(rockPaperScissor==2)
+      {
+        enemyScore++
+        alert("❌"+"You chose rock and your opponent chose paper!\nYou lost!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+        rockPaperScissor==0;
+      }
+      //Rock+Scissors INSANE
+      else if(rockPaperScissor==3)
+      {
+        questionGen=~~(Math.random() * 5) + 1
+        alert("🚨\nWARNING! ANSWER THE QUESTION RIGHT TO CLAIM YOUR POINT");
+        for (let j=1;j<2;j++)
+          {
+            //WinningQuestions
+            if (questionGen==1)
+            {
+              q1=+prompt("How many provinces are there in Canada?")
+              if(q1==10)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose rock and your opponent chose scissors!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+            }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose rock and your opponent chose scissors!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;
+              }
+            }
+            else if (questionGen==2)
+            {
+              q2=+prompt("Bob spent $184.59 to buy 3 hockey sticks. If each hockey stick was the same price, how much did 1 cost?\n(DONT INCLUDE $)")
+              if(q2==61.53)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose rock and your opponent chose scissors!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+                }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose rock and your opponent chose scissors!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;
+              } 
+            }
+             else if (questionGen==3)
+            {
+              q3=+prompt("A single trading card is 9 centimetres long by 6 centimetres wide. What is its area?")
+              if(q3==54)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose rock and your opponent chose scissors!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+            }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose rock and your opponent chose scissors!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;
+          }
+      }
+            else if (questionGen==4)
+            {
+              q4=+prompt("This equation shows how the amount Lucas earns from his after-school job depends on how many hours he works:e = 12h. The variable h represents how many hours he works. The variable e represents how much money he earns. How much money will Lucas earn after working for 6 hours?")
+              if(q4==72)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose rock and your opponent chose scissors!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+            }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose rock and your opponent chose scissors!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;
+          }
+      }
+          else if (questionGen==5)
+            {
+              q5=+prompt("What is the square root of 225?")
+              if(q5==15)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose rock and your opponent chose scissors!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+            }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose rock and your opponent chose scissors!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;  
+           }
+      }
+             else if (questionGen==6)
+            {
+              q6=+prompt("How many states are there in the United States of America")
+              if(q6==50)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose rock and your opponent chose scissors!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+                }
+              else
+                {
+                  j ++
+                  enemyScore++
+                alert("❌"+"You chose rock and your opponent chose scissors!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;  
+                }
+            } 
+          }    
+      }
+     }
+//Paper possibility INSANE
+	  else if(answer=="paper" || answer=="Paper" || answer=="PAPER" || answer=="P" || answer=="p")
+    {
+      //Paper+Rock INSANE
+      if(rockPaperScissor==1)
+      {
+        questionGen=~~(Math.random() * 5) + 1
+        alert("🚨\nWARNING! ANSWER THE QUESTION RIGHT TO CLAIM YOUR POINT");
+        for (let j=1;j<2;j++)
+          {
+            //WinningQuestions
+            if (questionGen==1)
+            {
+              q1=+prompt("How many provinces are there in Canada?")
+              if(q1==10)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose paper and your opponent chose rock!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+            }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose paper and your opponent chose rock!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;
+              }
+            }
+            else if (questionGen==2)
+            {
+              q2=+prompt("Bob spent $184.59 to buy 3 hockey sticks. If each hockey stick was the same price, how much did 1 cost?\n(DONT INCLUDE $)")
+              if(q2==61.53)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose paper and your opponent chose rock!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+            }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose paper and your opponent chose rock!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;
+          }
+      }
+             else if (questionGen==3)
+            {
+              q3=+prompt("A single trading card is 9 centimetres long by 6 centimetres wide. What is its area?")
+              if(q3==54)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose paper and your opponent chose rock!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+            }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose paper and your opponent chose rock!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;
+          }
+      }
+            else if (questionGen==4)
+            {
+              q4=+prompt("This equation shows how the amount Lucas earns from his after-school job depends on how many hours he works:e = 12h. The variable h represents how many hours he works. The variable e represents how much money he earns. How much money will Lucas earn after working for 6 hours?")
+              if(q4==72)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose paper and your opponent chose rock!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+            }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose paper and your opponent chose rock!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;
+          }
+      }
+          else if (questionGen==5)
+            {
+              q5=+prompt("What is the square root of 225?")
+              if(q5==15)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose paper and your opponent chose rock!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+            }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose paper and your opponent chose rock!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;  
+           }
+      }
+             else if (questionGen==6)
+            {
+              q6=+prompt("How many states are there in the United States of America")
+              if(q6==50)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose paper and your opponent chose rock!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+                }
+              else
+                {
+                  j ++
+                  enemyScore++
+                alert("❌"+"You chose paper and your opponent chose rock!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;  
+                }
+            } 
+          }
+      }
+      //Paper+Paper INSANE
+      else if(rockPaperScissor==2)
+      {
+        enemyScore++
+        alert("❌"+"\nYou chose paper and your opponent chose paper!\nYou lost!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+          rockPaperScissor==0;
+      }
+      //Paper+Scissors INSANE
+      else if(rockPaperScissor==3)
+      {
+        enemyScore++
+        alert("❌"+"You chose paper and your opponent chose scissors!\nYou lost!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+        rockPaperScissor==0;
+      }
+      }
+    //Scissor possibility INSANE
+      else if(answer=="scissors" || answer=="SCISSORS" || answer=="Scissors" || answer=="scissor" || answer=="S" || answer=="s")
+        {
+      //Scissor+Rock
+      if(rockPaperScissor==1)
+        {  
+          enemyScore++
+        alert("❌"+"You chose scissors and your opponent chose rock!\nYou lost!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+        rockPaperScissor==0;
+        }
+      //Scissor+Paper INSANE
+      else if(rockPaperScissor==2)
+      {
+        questionGen=~~(Math.random() * 5) + 1
+        alert("🚨\nWARNING! ANSWER THE QUESTION RIGHT TO CLAIM YOUR POINT");
+        for (let j=1;j<2;j++)
+          {
+            //WinningQuestions
+            if (questionGen==1)
+            {
+              q1=+prompt("How many provinces are there in Canada?")
+              if(q1==10)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose scissors and your opponent chose paper!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+            }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose scissors and your opponent chose papaer!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;
+              }
+            }
+            else if (questionGen==2)
+            {
+              q2=+prompt("Bob spent $184.59 to buy 3 hockey sticks. If each hockey stick was the same price, how much did 1 cost?\n(DONT INCLUDE $)")
+              if(q2==61.53)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose scissors and your opponent chose paper!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+            }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose scissors and your opponent chose paper!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;
+          }
+      }
+             else if (questionGen==3)
+            {
+              q3=+prompt("A single trading card is 9 centimetres long by 6 centimetres wide. What is its area?")
+              if(q3==54)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose scissors and your opponent chose paper!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+            }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose scissors and your opponent chose paper!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;
+          }
+      }
+            else if (questionGen==4)
+            {
+              q4=+prompt("This equation shows how the amount Lucas earns from his after-school job depends on how many hours he works:e = 12h. The variable h represents how many hours he works. The variable e represents how much money he earns. How much money will Lucas earn after working for 6 hours?")
+              if(q4==72)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose scissors and your opponent chose paper!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+            }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose scissors and your opponent chose paper!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;
+          }
+      }
+          else if (questionGen==5)
+            {
+              q5=+prompt("What is the square root of 225?")
+              if(q5==15)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose scissors and your opponent chose paper!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+            }
+              else
+              {
+                j++
+                enemyScore++
+                alert("❌"+"You chose scissors and your opponent chose paper!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;  
+           }
+      }
+             else if (questionGen==6)
+            {
+              q6=+prompt("How many states are there in the United States of America")
+              if(q6==50)
+                {
+                  j++
+                  allyScore++
+                  alert("✅"+"You chose scissors and your opponent chose paper!\nFurthermore, you answered the question right!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                  rockPaperScissor==0;
+                }
+              else
+                {
+                  j ++
+                  enemyScore++
+                alert("❌"+"You chose scissors and your opponent chose paper!\nHowever, you answered the question wrong.\nYou lost.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+                rockPaperScissor==0;  
+                }
+            } 
+          }    
+      }
+      //Scissor+Scissors INSANE
+      else if(rockPaperScissor==3)
+      {
+        enemyScore++
+        alert("❌"+"\nYou chose scissors and your opponent chose scissors!\nYou lost!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+          rockPaperScissor==0;
+      }
+    }
+   }
+}
+
+
+  //Classic Mode code
+else if (gameMode=="classic" || gameMode=="Classic" || gameMode=="CLASSIC" || gameMode=="C" || gameMode=="c")
+  {
+    while (rounds==0)
+    {
+      rounds=+prompt(picture+"\nHi "+guestName+". "+"How many rounds do you want the game to be? \n(Please pick an odd number!)");
+      if (rounds%2==0)
+      {  
+        rounds=0
+        alert(picture+"\nPlease enter a odd number");
+      }
+    }
+  if(rounds==1)
+  {
+    alert(picture+"\nThis rock paper scissor game will go on for "+ rounds + " round!");
+  }
+  else
+  {
+    alert(picture+"\nThis rock paper scissor game will go on for "+ rounds + " rounds!");
+  }
+  //This is the code to the game
+  for (let x=1;x<=rounds;x++)
+  {
+	  alert(picture+"\nRound "+x);
+	  answer=prompt(picture+"\nPlease type either rock, paper, or scissors! \nPlease be weary of your spelling")
+    rockPaperScissor=~~(Math.random() * 3) + 1;
+    alert("🗿"+"\nRock!");
+    alert("📄"+"\nPaper!");
+    alert("✂"+"\nScissors!");
+    alert("🔫"+"\nShoot!");
+    if(answer!="rock" && answer!="Rock" && answer!="ROCK" && answer!="paper" && answer!="Paper" && answer!="PAPER" && answer!="scissors" && answer!="Scissor" && answer!="SCISSORS" && answer!="scissor" && answer!="r" && answer!="R" && answer!="s" && answer!="S" && answer!="P" && answer!="p")
+    {
+      alert("🚫🚫🚫"+"\nUh oh! It looks like your entry was invalid! Looks like you have inputed a invalid character! Please try again");
+      x--
+    }
+    //Rock possibility
+    else if(answer=="rock" || answer=="Rock" || answer=="ROCK" || answer=="r" || answer=="R")
+
+    {
+      //Rock+Rock
+      if(rockPaperScissor==1)
+        {  
+          alert("⚠️"+"\nYou chose rock and your opponent chose rock!\nIt's a tie! This round will not count.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+          x--
+          rockPaperScissor==0;
+        }
+      //Rock+Paper
+      else if(rockPaperScissor==2)
+      {
+        enemyScore++
+        alert("❌"+"You chose rock and your opponent chose paper!\nYou lost!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+        rockPaperScissor==0;
+      }
+      //Rock+Scissors
+      else if(rockPaperScissor==3)
+      {
+        allyScore++
+        alert("✅"+"You chose rock and your opponent chose scissors!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+        rockPaperScissor==0;
+      }
+    }
+      //Paper possibility
+	  else if(answer=="paper" || answer=="Paper" || answer=="PAPER" || answer=="P" || answer=="p")
+    {
+      //Paper+Rock
+      if(rockPaperScissor==1)
+        {  
+          allyScore++
+        alert("✅"+"You chose paper and your opponent chose rock!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+        rockPaperScissor==0;
+        }
+      //Paper+Paper
+      else if(rockPaperScissor==2)
+      {
+        alert("⚠️"+"\nYou chose paper and your opponent chose paper!\nIt's a tie! This round will not count.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+          x--
+          rockPaperScissor==0;
+      }
+      //Paper+Scissors
+      else if(rockPaperScissor==3)
+      {
+        enemyScore++
+        alert("❌"+"You chose paper and your opponent chose scissors!\nYou lost!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+        rockPaperScissor==0;
+      }
+    }
+      //Scissor possibility
+      else if(answer=="scissors" || answer=="SCISSORS" || answer=="Scissors" || answer=="scissor" || answer=="S" || answer=="s")
+        {
+      //Scissor+Rock
+      if(rockPaperScissor==1)
+        {  
+          enemyScore++
+        alert("❌"+"You chose scissors and your opponent chose rock!\nYou lost!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+        rockPaperScissor==0;
+        }
+      //Scissor+Paper
+      else if(rockPaperScissor==2)
+      {
+        allyScore++
+        alert("✅"+"You chose scissors and your opponent chose paper!\nYou won!\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+        rockPaperScissor==0;
+      }
+      //Scissor+Scissors
+      else if(rockPaperScissor==3)
+      {
+        alert("⚠️"+"\nYou chose scissors and your opponent chose scissors!\nIt's a tie! This round will not count.\n"+guestName+" - "+allyScore+"\nOpponent - "+enemyScore);
+          x--
+          rockPaperScissor==0;
+      }
+    }
+  }
+}
+
+//Victory/Defeat menu
+if(allyScore<enemyScore)
+  {
+    alert("❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌"+"\n"+guestName+" you have been defeated!");
+  }
+else
+  {
+     alert("✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅"+"\n"+guestName+", you are victorius!");
+  }
+
+
+function myFunction() {
+ document.getElementById("StatsboxText1").innerHTML = allyScore;
+ document.getElementById("StatsboxText2").innerHTML = enemyScore;
+ document.getElementById("StatsboxText3").innerHTML = rounds;
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!--
+  Kaven Muraleitharan & Sansar Sharma
+  3/29/2022
+  Mr. Krnic
+  Unit 2 Assignment
+  This is the code to our POST game website.
+  -->
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+    <title>
+      Rock Paper Scissors
+    </title>
+    <link rel="icon" href="../../IMAGES/GameIcon.png">
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="../../style.css">
+  </head>
+  <body onload="myFunction()">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	 <nav>
+     <div class="table">
+       <ul id="nav-link">
+			   <li><a href="../../index.html">Home</a></li>
+         <li><a href="../HOWTOPLAY/index.html">How To Play</a></li>
+         <li><a href="../CODESNIPPET/index.html">Code Snippets</a></li>
+         <li><a href="index.html">Game</a></li>
+		   </ul>
+     </div>
+    <div class="statsbox">
+      <h1 class="StatsboxTitle">Rock Paper Scissors Statistics</h1>
+      <h2 class=StatsboxHeaders>Wins:</h2>
+        <p id="StatsboxText1"></p>
+      <h2 class=StatsboxHeaders>Loses:</h2>
+        <p id="StatsboxText2"></p>
+      <h2 class=StatsboxHeaders>Games Played:</h2>
+        <p id="StatsboxText3"></p>
+    </div>
+	 </nav>
+ </body>
+</html>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+!--
+  Kaven Muraleitharan & Sansar Sharma
+  3/29/2022
+  Mr. Krnic
+  Unit 2 Assignment
+  This is the webpage of the tutorial on how to play the game.
+  -->
+<html> 
+  <head> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+    <title>
+      Rock Paper Scissors Tutorial
+    </title>
+    <link rel="icon" href="../../IMAGES/HowToPlayIcon.png">
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="../../style.css">
+  </head>
+  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	 <nav>
+     <div class="table">
+       <ul id="nav-link">
+			   <li><a href="../../index.html">Home</a></li>
+         <li><a href="index.html">How To Play</a></li>
+         <li><a href="../CODESNIPPETS/index.html">Code Snippets</a></li>
+         <li><a href="../GAME/index.html">Game</a></li>
+		   </ul>
+     </div>
+	 </nav>
+    <div class="container">
+      <img class="HowToPlay_BG" src="../../IMAGES/HowToPlayBG.png">
+      <h1 class="HowToPlay_Title">How To Play</h1>
+    </div>
+    <div class="IntroductionBox"> 
+      <h1 class="IntroductionHeader">Introduction</h1>
+      <div class="imgAlign">
+        <p class="IntroductionText">When loading the game, you will see an alert welcoming the user, asking the user for their name, prefered mode of Rock, Paper, Scissors, and lastly how many rounds the user desires to play for. An error will occur when the number of rounds is not even, as a winner would not be chosen.</p>
+        <div class="IntroPicBox1">
+         <img class="IntroBoxIMG1" src="HowToPlayImages/WelcomeScreen.PNG">
+         <img class="IntroBoxIMG2" src="HowToPlayImages/NameScreen.PNG">
+        </div>
+        <div class="IntroPicBox2">
+          <img class="IntroBoxIMG3" src="HowToPlayImages/GamemodeScreen.PNG">
+          <img class="IntroBoxIMG4" src="HowToPlayImages/RoundScreen.PNG">
+        </div>
+        <div class="divvywivvy">
+          <img class="IntroBoxIMG5" src="HowToPlayImages/OddNumberError.PNG"> 
+        </div>
+      </div>
+    </div>
+    <div class="ModeBox">
+      <h1 class="IntroductionHeader">Modes</h1>
+      <div class="headerline">
+        <h2 class="Subheader1">Classic Mode</h2>
+        <h2 class="Subheader2">Insane Mode</h2>
+      </div>
+      <div class="ModetextOutLine">
+       <p class="Mode1Text">Classic mode is exactly like Rock Paper Scissors but with alerts. In this mode, a tie re-do's a round, meanwhile a win is considered a win, and a loss is a loss</p>
+       <p class="Mode2Text">Insane mode is Rock Paper Scissors, but with a twist. A tie and loss both end up with a loss for the player. If the player wins the round, they will need to answer a question. If the player failed to answer, they also lose the round. The questions will mainly be geography and math related conspects.</p>
+      </div>
+    </div>
+    <div class="IntermissionBox"> 
+      <h1 class="IntroductionHeader">Intermissions</h1>
+      <div class="imgAlign">
+        <p class="IntroductionText">In our game there are "Intermission" alerts. The premise of having these alerts, was to create a feeling that you are playing rock, paper and scissors, rather than a simple game against the AI.</p>
+        <div class="IntroPicBox1">
+         <img class="IntroBoxIMG1" src="HowToPlayImages/RockAlert.PNG">
+         <img class="IntroBoxIMG2" src="HowToPlayImages/PaperAlert.PNG">
+        </div>
+        <div class="IntroPicBox2">
+          <img class="IntroBoxIMG3" src="HowToPlayImages/ShootAlert.PNG">
+          <img class="IntroBoxIMG4" src="HowToPlayImages/ScissorsAlert.PNG">
+        </div>
+      </div>
+    </div>
+    <div class="IntermissionBox"> 
+      <h1 class="IntroductionHeader">Classic Mode Rounds</h1>
+      <div class="imgAlign">
+        <p class="IntroductionText">As stated before, Classic mode is the normal Rock, Paper, Scissors game but with alerts. The win alert means you won the round, a lost alert means you lost the round, and lastly the tie alert redo's your turn, to make the game more intense.</p>
+        <div class="IntroPicBox1">
+         <img class="IntroBoxIMG1" src="HowToPlayImages/WinRound.PNG">
+         <img class="IntroBoxIMG2" src="HowToPlayImages/LostRoundScreen.PNG">
+        </div>
+        <div class="IntroPicBox2">
+          <img class="TieIMG3" src="HowToPlayImages/TieRound.PNG">
+        </div>
+      </div>
+    </div>
+    <div class="InsaneModeBox"> 
+      <h1 class="IntroductionHeader">Insane Mode Rounds</h1>
+      <div class="imgAlign">
+        <p class="IntroductionText">Insane mode is a gamemode we created, as a different take onto rock, paper, scissors. When a player wins the rock, paper, scissors duel against the AI, the player is forced to answer a question. If they fail do so, they lose the round. Tying against the AI also results in a loss, including the  normal loss to the bot.</p>
+        <div class="IntroPicBox1">
+         <img class="IntroBoxIMG1" src="HowToPlayImages/InsaneModeQuestion.PNG">
+         <img class="IntroBoxIMG2" src="HowToPlayImages/InsaneModeQuestionSample.PNG">
+        </div>
+        <div class="IntroPicBox2">
+          <img class="IntroBoxIMG3" src="HowToPlayImages/InsaneModeAnswerWrongLoss.PNG">
+          <img class="IntroBoxIMG4" src="HowToPlayImages/InsaneModeAnswerRightWin.PNG">
+        </div>
+        <div class="divvywivvy2">
+          <img class="InsaneModeIMG5" src="HowToPlayImages/InsaneModeTieLoss.PNG">
+          <img class="InsaneModeIMG6" src="HowToPlayImages/InsaneModeLoss.PNG">
+        </div>
+      </div>
+    </div>
+    <div class="WinLossBox"> 
+      <h1 class="IntroductionHeader">Win and Lost</h1>
+      <div class="imgAlign">
+        <p class="IntroductionText">After all the round have finished, if the player has more wins than the AI, they get presented with a victory alert, but if they have lost more than wins, they get presented with a defeated alert.</p>
+        <div class="IntroPicBox1">
+         <img class="WinLossIMG1" src="HowToPlayImages/WinScreen.PNG">
+         <img class="WinLossIMG2" src="HowToPlayImages/LostScreen.PNG">
+        </div>
+      </div>
+    </div>
+ </body>
+</html>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*
+  Kaven Muraleitharan & Sansar Sharma
+  3/29/2022
+  Mr. Krnic
+  Unit 2 Assignment 
+  This our stylization page for our website.
+*/
+
+body{
+  background-image:url("IMAGES/Background.jpg");
+  margin: 0px;
+  padding: 0px;
+  background-size:cover;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.RPS_Title{
+  position: absolute;
+  top: 50%;
+  left: 51.5%;
+  transform: translate(-50%, -50%);
+  margin-top:-13%;
+  font-size:80px;
+  font-weight:bold;
+  color:white;
+  font-family: 'Finger Paint', cursive;
+}
+
+.RPS_BG{ 
+  height:850px;
+  margin-top:0.55%;
+  width:99.8%;
+  filter: brightness(80%);
+  position: relative;
+  border-color:black;
+  border-width:2px;
+  border-style:solid;
+}
+
+.WelcomeBox{
+  margin-top:0.5%;
+  width:99.8%;
+  height:450px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+  border-style:solid;
+}
+
+.WelcomeHeader{
+  font-size:40px;
+  color:white;
+  text-align:center;
+  margin-top:3%;
+  text-decoration-color: white;
+  text-decoration-thickness: 2.5px;
+  font-family: 'Finger Paint', cursive;
+}
+
+.WelcomeText{
+  text-align:center;
+  font-size:27px;
+  color:white;
+  width: 75%;
+  height:205px;
+  line-height:50px;
+  margin: auto;
+  margin-top:2%;
+  border-style:solid;
+  border-width:2px;
+  border-color:black;
+  border-radius:5%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.info{
+  margin-top:0.5%;
+  width:99.8%;
+  height:585px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+  border-style:solid;
+}
+
+.infoheader{
+  font-size:40px;
+  color:white;
+  text-align:left;
+  margin-left:8%;
+  margin-top:3%;
+  text-decoration-color: white;
+  text-decoration-thickness: 2.5px;
+  font-family: 'Finger Paint', cursive;
+}
+
+.InfoText{
+  width:750px;
+  height: 450px;
+  font-size:27px;
+  margin-left:7.5%;
+  color:white;
+  line-height:52.5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.InfoIMG{
+  float:right;
+  height:350px;
+  margin-right:8%;
+  margin-top:1%;
+  border-style:solid;
+  border-color:black;
+  border-width:2.5px;
+  border-radius:1%;
+}
+
+/* 
+Below is the stylizing for the Code Snippets index.
+*/
+
+/* 
+Below is the stylizing for the HowToPlay Index.
+*/
+
+.HowToPlay_Title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top:-13%;
+  font-size:70px;
+  font-weight:bold;
+  color:white;
+  font-family: 'Finger Paint', cursive;
+}
+
+.HowToPlay_BG{ 
+  height:850px;
+  margin-top:0.55%;
+  width:99.8%;
+  filter: brightness(65%);
+  position: relative;
+  border-color:black;
+  border-width:2px;
+  border-style:solid;
+}
+
+.IntroductionBox{
+  margin-top:0.5%;
+  width:99.8%;
+  height:850px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+  border-style:solid;
+  
+}
+
+.IntroductionHeader{
+  font-size:40px;
+  color:white;
+  text-align:center;
+  margin-top:3%;
+  text-decoration-color: white;
+  text-decoration-thickness: 2.5px;
+  font-family: 'Finger Paint', cursive;
+}
+
+.IntroductionText{
+  width:750px;
+  height: 250px;
+  font-size:27px;
+  margin-top:7.5%;
+  margin-left:8%;
+  color:white;
+  line-height:53.5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.headerline{
+  width:100%;
+  height: 100px;
+  margin-top:3%;
+}
+ 
+.Subheader1{
+  margin-top:2%;
+  margin-left:18%;
+  width:275px;
+  height: 50px;
+  font-size:32.5px;
+  color:white;
+  line-height:53.5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.Subheader2{
+  float:right;
+  margin-right:17.5%;
+  margin-top:-4.5%;
+  width:275px;
+  height: 50px;
+  font-size:32.5px;
+  color:white;
+  line-height:53.5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.ModetextOutLine{
+  width:99.8%;
+  height: 300px;
+}
+
+.Mode1Text{
+  width:750px;
+  height: 250px;
+  font-size:27px;
+  margin-left:8%;
+  color:white;
+  line-height:53.5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.Mode2Text{
+  float:right;
+  width:750px;
+  height: 250px;
+  font-size:27px;
+  margin-top:-15%;
+  margin-right:8%;
+  color:white;
+  line-height:53.5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.imgAlign {
+
+}
+
+.IntroPicBox1{
+/*   border-style: solid; */
+  
+}
+
+.IntroPicBox2{
+/*   border-style: solid; */
+}
+
+.IntroPicBox3{
+/*   border-style: solid; */
+}
+
+.IntroBoxIMG1{
+  float:right;
+  margin-top: -17%;
+  margin-right:25%;
+  border-style:solid;
+  border-width:4px;
+}
+
+.IntroBoxIMG2{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-top: -17%;
+  margin-right:0.5%;
+}
+
+.IntroBoxIMG3{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-top: -6%;
+  margin-right:0.5%;
+}
+
+.IntroBoxIMG4{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-top: -6%;
+  margin-right:0.5%;
+}
+
+.divvywivvy{
+  width:99.7%;
+  height:200px;
+  margin-top:8.5%;
+}
+
+.IntroBoxIMG5{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-right:13%;
+}
+
+.ModeBox{
+  margin-top:0.5%;
+  width:99.8%;
+  height:600px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+  border-style:solid;
+}
+
+.IntermissionBox{
+  margin-top:0.5%;
+  width:99.8%;
+  height:625px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+  border-style:solid;
+}
+
+.TieIMG3{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-top: -6%;
+  margin-right:12.5%;
+}
+
+.InsaneModeBox{
+  margin-top:0.5%;
+  width:99.8%;
+  height:900px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+  border-style:solid;
+}
+
+.InsaneModeIMG5{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-right:0.5%;
+  border-style:solid
+}
+
+.InsaneModeIMG6{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-right:0.5%;
+  margin-right:0.5%;
+}
+
+.divvywivvy2{
+  width:99.7%;
+  height:200px;
+  margin-top:8.5%;
+}
+
+.WinLossBox{
+  margin-top:0.5%;
+  width:99.8%;
+  height:600px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+  border-style:solid;
+}
+
+.WinLossIMG1{
+  float:right;
+  margin-top: -15%;
+  margin-right:25%;
+  border-style:solid;
+  border-width:4px;
+}
+
+.WinLossIMG2{
+  float:right;
+  border-style:solid;
+  border-width:4px;
+  margin-top: -15%;
+  margin-right:0.5%;
+}
+
+/* 
+Below is the stylizing for the Game Index.
+*/
+
+.statsbox{
+  width: 90%;
+  height: 450px;
+  margin-top: 12%;
+  background-color: #5d6b8e;
+  border-style:solid;
+  border-color:black;
+}
+
+.StatsboxTitle{
+  font-size: 35px;
+  font-weight: bold;
+  text-align:center;
+  margin-top:1.5%;
+}
+
+.StatsboxHeaders{
+  margin-left:15%;
+  font-size:27.5px;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 2.5px;
+}
+
+#StatsboxText1{
+  font-size:24px;
+  margin-left:20%;
+  margin-top:-4.5%;
+}
+
+#StatsboxText2{
+  font-size:24px;
+  margin-left:20%;
+  margin-top:-4.5%;
+}
+
+#StatsboxText3{
+  font-size:24px;
+  margin-left:26%;
+  margin-top:-4.5%;
+}
+/*
+Below is the styling for the Code Snippets page.
+*/
+
+.CODESNIPPETS_Title{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top:-13%;
+  font-size:110px;
+  font-weight:bold;
+  color:white;
+  font-family: 'Finger Paint', cursive;
+}
+
+.ifElseIMG1 {
+  float:right;
+  height:350px;
+  margin-right:8%;
+  margin-top:-17%;
+  border-radius:1%;  
+}
+.elseIf
+{
+    margin-top:0.5%;
+  width:99.8%;
+  height:850px;
+  background-color:#7e7a99;
+  border-color:black;
+  border-width:1.5px;
+}
+
+
+
+
+/*
+Below is the styling for the navigation bar
+*/
+
+nav{
+	width: 100%;
+	height: 95px;
+	background-color: gray;
+	line-height: 55px;
+	padding:0px 100px;
+	position:fixed;
+	z-index: 1;
+  border-color:black;
+  border-width:2.5px;
+  border-style:solid;
+}
+
+nav #nav-link{
+	float: left;
+  margin-left: 23.5%;
+  display: table; 
+}
+
+nav #nav-link li{
+	display: inline;
+	list-style: none;
+}
+
+nav #nav-link li a{
+	color:#fff;
+	text-decoration: none;
+	padding:0px 32px;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Finger Paint', cursive;
+}
+
+nav #nav-link li a:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 3px;
+  font-family: 'Finger Paint', cursive;
+}
